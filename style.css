@@ -1,0 +1,112 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color:rgb(236, 236, 241);
+    background: rgb(85, 82, 82)
+    margin: 0;
+    padding: 0;
+}
+/*HEADER */
+header{
+    background-image: url(pasta.jpeg);
+    background-size:100%;
+    background-color: black;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(252, 252, 252);
+    margin: -10px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+section {
+    background: white;
+    color:black;
+    margin: -10px;
+    padding: 20px 200px;
+    display: flex;
+    flex-direction: row;
+
+}
+.features {
+    background:pink;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.features figure{
+    text-align: center;
+    width:1000px;
+    margin:auto;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.features figure img {
+    border:1px solid white;
+    width:300px;
+    border-radius:50%;
+    margin:auto;
+    box-shadow: gray 0px 0px 10px;
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+ul{
+    margin:0;
+    padding: 0;
+    list-style-type:none;
+    color: white;
+}
+li{
+    display:inline-block;
+    margin:20px 100px 0px -60px;
+    font-size: 35px;
+    color: white;
+}
+footer {
+    background:black;
+    color: white;
+    margin: auto;
+    padding: 10px 200px;
+}
+
+header .logo a{
+    background-image: url(house.png);
+    background-size: 160px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 100px;
+    width:400px;
+    text-indent: -999999999px;
+    position: relative;
+    top: -40px;
+    right: -120px;
+    
+}
+header .page a{
+    color: white;
+    text-decoration: none;
+}
+header .page a:hover{
+    
+    background-color: red;
+    text-decoration: underline;
+}
+footer{
+    background:black;
+    color: gray;
+    font-size: 15px;
+    position: relative;
+    text-align: right;
+
+}
+/* RESPONSIVE RULE*/
+@media screen and (){}
